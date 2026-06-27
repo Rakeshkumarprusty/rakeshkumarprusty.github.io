@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakesh Kumar prusty | Professional Software Developer</title>
+    <meta name="description" content="Official developer portfolio of Rakesh Kumar prusty. Expert custom web development, mobile/desktop applications, and database configuration services.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                Rakesh Kumar prusty<span class="logo-dot"></span>
+            </a>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html#home" class="nav-link active">Home</a></li>
+                <li><a href="index.html#services" class="nav-link">Services & Pricing</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="contact.html" class="btn nav-btn">Hire Me</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                    Available for Freelance & Consultation
+                </div>
+                <h1 class="hero-title">Engineering Custom <span class="text-gradient">Digital Solutions</span></h1>
+                <p class="hero-desc">Hi, I'm Rakesh. I build high-performance web applications, native desktop & mobile apps, and robust database systems tailored to your exact business needs.</p>
+                <div class="hero-btns">
+                    <a href="#services" class="btn btn-primary">View Services & Pricing</a>
+                    <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="visual-box glass-card">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <span class="code-dot red"></span>
+                            <span class="code-dot yellow"></span>
+                            <span class="code-dot green"></span>
+                        </div>
+                        <div class="code-body">
+                            <p class="code-comment">// Developer Profile</p>
+                            <p><span class="code-keyword">const</span> developer = {</p>
+                            <p>&nbsp;&nbsp;name: <span class="code-string">"Rakesh Kumar Prusty"</span>,</p>
+                            <p>&nbsp;&nbsp;role: <span class="code-string">"Full-Stack Engineer"</span>,</p>
+                            <p>&nbsp;&nbsp;skills: [</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Web Development"</span>,</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Mobile & Desktop Apps"</span>,</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Database Design"</span></p>
+                            <p>&nbsp;&nbsp;],</p>
+                            <p>&nbsp;&nbsp;hourlyRate: <span class="code-value">50</span>,</p>
+                            <p>&nbsp;&nbsp;status: <span class="code-string">"Ready for verification"</span></p>
+                            <p>};</p>
+                            <br>
+                            <p><span class="code-keyword">function</span> <span class="code-property">buildApp</span>(clientRequirements) {</p>
+                            <p>&nbsp;&nbsp;<span class="code-keyword">return</span> developer.skills</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;.<span class="code-property">map</span>(skill => <span class="code-property">apply</span>(skill));</p>
+                            <p>}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" style="background: rgba(255, 255, 255, 0.01); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Services & Pricing</span>
+                <h2 class="section-title">What I Offer</h2>
+                <p class="section-desc">Highly structured and professional engineering services. Web development projects start at $500/project. Consultation and other services are charged at a flat rate of $50/hour.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card glass-card">
+                    <div class="service-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" /><path d="M21 9H3" /><path d="M21 15H3" /><path d="M12 3v18" /></svg>
+                    </div>
+                    <h3 class="service-title">Custom Web Development</h3>
+                    <p class="service-desc">End-to-end design, implementation, and deployment of responsive, performant websites and SaaS applications built using modern frameworks and responsive web standards.</p>
+                    <div class="service-footer">
+                        <span class="price-label">Pricing</span>
+                        <span class="price-value">$500<span class="price-period">/project*</span></span>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card glass-card">
+                    <div class="service-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2" /><path d="M12 18h.01" /></svg>
+                    </div>
+                    <h3 class="service-title">Mobile & Desktop Apps</h3>
+                    <p class="service-desc">Cross-platform native mobile and desktop application development targeting Android, iOS, macOS, and Windows environments, delivering consistent client-side features.</p>
+                    <div class="service-footer">
+                        <span class="price-label">Pricing</span>
+                        <span class="price-value">$50<span class="price-period">/hour</span></span>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card glass-card">
+                    <div class="service-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3" /><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" /><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3" /></svg>
+                    </div>
+                    <h3 class="service-title">Database Configuration</h3>
+                    <p class="service-desc">Professional database schema design, indexing, query optimization, security hardening, and administration of relational databases (PostgreSQL, MySQL) and NoSQL environments.</p>
+                    <div class="service-footer">
+                        <span class="price-label">Pricing</span>
+                        <span class="price-value">$50<span class="price-period">/hour</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container about-grid">
+            <div class="about-visual">
+                <div class="glass-card" style="text-align: center;">
+                    <div style="width: 120px; height: 120px; border-radius: 50%; background: var(--gradient-primary); margin: 0 auto 1.5rem auto; display: flex; align-items: center; justify-content: center; font-size: 3rem; font-family: var(--font-heading); font-weight: 800; color: #ffffff;">
+                        RK
+                    </div>
+                    <h3>Rakesh Kumar prusty</h3>
+                    <p style="color: var(--primary-light); font-weight: 600; margin-top: 0.5rem;">Independent Software Architect</p>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 1rem;">Bangalore, India</p>
+                </div>
+            </div>
+            
+            <div class="about-content">
+                <span class="section-tag">About Me</span>
+                <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Designing robust architectures for modern web & mobile</h2>
+                <div class="about-text">
+                    <p>I am an independent developer and software architect with years of experience building client-side interfaces and backend databases. I specialize in designing scalable systems that solve complex business tasks.</p>
+                    <p>My workflow focuses on clean, well-tested code, security, and high efficiency. I collaborate with companies and entrepreneurs globally to help them launch their products securely.</p>
+                </div>
+                <h3>Technical Stack</h3>
+                <div class="skills-list">
+                    <span class="skill-tag">HTML5 / CSS3</span>
+                    <span class="skill-tag">JavaScript / TypeScript</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">React / Next.js</span>
+                    <span class="skill-tag">Mobile Frameworks</span>
+                    <span class="skill-tag">Desktop Tools</span>
+                    <span class="skill-tag">PostgreSQL / MySQL</span>
+                    <span class="skill-tag">Database Tuning</span>
+                    <span class="skill-tag">Cloud Infrastructure</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    Rakesh Kumar prusty<span class="logo-dot"></span>
+                </a>
+                <p class="footer-text">Providing reliable, professional, and compliant custom software services tailored to match your specific engineering needs.</p>
+            </div>
+            
+            <div>
+                <h4 class="footer-title">Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#home" class="footer-link">Home</a></li>
+                    <li><a href="index.html#services" class="footer-link">Services & Pricing</a></li>
+                    <li><a href="index.html#about" class="footer-link">About</a></li>
+                    <li><a href="contact.html" class="footer-link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="footer-title">Compliance Info</h4>
+                <ul class="footer-links">
+                    <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
+                    <li><a href="terms.html" class="footer-link">Terms & Conditions</a></li>
+                    <li><a href="refund.html" class="footer-link">Refund & Cancellation</a></li>
+                    <li><a href="contact.html" class="footer-link">Grievance Redressal</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p>&copy; <span id="currentYear"></span> Rakesh Kumar prusty. All rights reserved.</p>
+            <div class="footer-policies">
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+                <a href="refund.html">Refunds</a>
+                <a href="contact.html">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
